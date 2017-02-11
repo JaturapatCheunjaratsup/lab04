@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <TITLE>re-direct based upon window size</TITLE>
+</head>
+
+<body>
+    <SCRIPT LANGUAGE=JavaScript>
+        function windowHeight() {
+            if (document.body && document.body.clientHeight) {
+                return document.body.clientHeight;
+            } else if (window.innerHeight) {
+                return window.innerHeight;
+            } else {
+                return 0;
+            }
+        }
+        if (windowHeight() >= 300) {
+            document.location = "http://angsila.cs.buu.ac.th/~58160165/887371/";
+        } else {
+            document.location = "http://angsila.cs.buu.ac.th/~58160165/887371/";
+        }
+    </SCRIPT>
+</body>
+
+</html>

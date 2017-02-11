@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Image rollover</title>
+    <script language=javascript>
+        function highlightdocs() {
+            if (document.images) {
+                document.images["docs"].src = docsOn.src;
+            }
+
+        }
+
+        function unhighlightdocs() {
+            if (document.images) {
+                document.images["docs"].src = docsOff.src;
+            }
+        }
+        if (document.images) {
+            docsOn = new Image();
+            docsOn.src = "http://cdn.baabin.com/upload/files/58/2017_02_10_12_55_08.png"; //gg color
+            docsOff = new Image();
+            docsOff.src = "http://btsstation.com/wp-content/uploads/2016/12/01-131.jpg"; //gg grey
+        }
+    </script>
+</head>
+
+<body>
+    <p>
+        <a href="http://www.google.com" onMouseOver="highlightdocs()" onMouseOut="unhighlightdocs()">
+            <img src="http://btsstation.com/wp-content/uploads/2016/12/01-131.jpg" name=docs height=200 width=200 border=0>
+        </a>
+    </p>
+</body>
+
+</html>
