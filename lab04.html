@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+        
+        table,
+        th,
+        td {
+            text-align: center;
+            border: 0;
+        }
+        
+        th {
+            font-size: x-large;
+            font-family: 'Trirong', serif;
+        }
+        
+        h2 {
+            color: red;
+        }
+        
+        .text {
+            text-align: left;
+        }
+        
+        .row.content {
+            height: 1500px
+        }
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            background-color: #7FFFD4;
+            height: 100%;
+        }
+        /* Set black background color, white text and some padding */
+        
+        #footer {
+            background-color: lightskyblue;
+            color: black;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        #bg {
+            background-color: gold;
+            color: saddlebrown;
+        }
+        
+        #bg1 {
+            background-color: gold;
+        }
+        
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+        }
+        
+        @media screen and (max-width: 810px) {
+            #js1,
+            #js2,
+            #js3,
+            #js4,
+            #js5,
+            #js6,
+            #js7,
+            #js8,
+            #js9,
+            #js10 {
+                margin-left: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row content">
+            <div class="col-sm-3 sidenav">
+                <h4>Jaturapat Cheunjaratsup 58160165</h4>
+                <p><b><i><h2>JavaScript</h2></i></b></p>
+                <br>
+
+                <ul class="nav nav-pills nav-stacked">
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js1">JavaScript 1</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js2">JavaScript 2</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js3">JavaScript 3</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js4">JavaScript 4</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js5">JavaScript 5</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js6">JavaScript 6</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js7">JavaScript 7</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js8">JavaScript 8</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js9">JavaScript 9</a></li></button><br><br>
+                    <button type="button" id="bg1" class="btn btn-default"><li><a href="#js10">JavaScript 10</a></li></button><br><br>
+                </ul><br>
+            </div>
+            <div class="col-sm-8 text-left">
+                <center>
+                    <div class="alert alert-info">
+                        <h1 id="js1">JavaScript 1</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js01.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js1.png" class="img-rounded" width="450"></td>
+                                        <td class="text">11: พิมพ์สตริง Last updated on ต่อด้วย วันที่และเวลาที่อัพเดตครั้งล่าสุด</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/res1.png" class="img-rounded" width="450"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager ">
+                                <li class="previous ">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js2">JavaScript 2</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js02.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js2.png" class="img-rounded" width="450"></td>
+                                        <td class="text">10: พิมพ์สตริง <code>&lt;H1></code> Table<code>&lt;/H1></code> <br>11: วนลูป 9 รอบ และกำหนดค่าของตัวแปร fact = fact * i<br>12: พิมพ์ค่าของตัวแปร i ต่อด้วย ! = และค่าของตัวแปร fact<br> 13: พิมพ์ข้อความ <code>&lt;BR></code></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/res2.png" class="img-rounded" width="450"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js3">JavaScript 3</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js03.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js3.png" class="img-rounded" width="450"></td>
+                                        <td class="text">10: สร้างปุ่มชื่อว่า Click me เมื่อคลิกจะแสดงหน้าต่าง Pop up แสดงข้อความว่า You clicked me</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/res3.png" class="img-rounded" width="450"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js4">JavaScript 4</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js04.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js4.png" class="img-rounded" width="450"></td>
+                                        <td class="text">6: สร้างฟังก์ชัน outputDate<br>7: สร้าง object ของ Date เก็บไว้ในตัวแปร d<br>8: พิมพ์สตริงตัวแปร d ให้เปลี่ยนจากวันและเวลา ไปเป็นสตริง<br>16: เรียกใช้ฟังก์ชัน outputDate</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/res4.png" class="img-rounded" width="450"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js5">JavaScript 5</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js05.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js5.png" class="img-rounded" width="550"></td>
+                                        <td class="text">6: สร้างฟังก์ชัน alertUser<br>7: แสดง Pop up และแสดงข้อความว่า An alert box contains an exclamation mark<br>10: สร้างฟังก์ชัน confirmUser<br>11: ประกาศตัวแปรเก็บสตริง ชื่อว่า msg แล้วแสดงข้อความ please confirm that
+                                            you want to test another button?<br> 12,13: เงื่อนไข ถ้ายืนยัน msg ให้พิมพ์สตริง <code>&lt;h2&gt;</code> selected OK<code>&lt;/h2&gt;</code><br>14,15: ถ้าไม่ใช่ให้พิมพ์สตริง <code>&lt;h2&gt;</code> selected
+                                            Cancel
+                                            <code>&lt;/h2&gt;</code><br> 18: สร้างฟังก์ชัน promptUser<br>19: ให้ตัวแปร name1 เก็บคำตอบจาก Pop up ที่แสดงว่า What is your name?<br>20: พิมพ์สตริง <code>&lt;h2&gt;</code>welcome to this page รวมกับค่าตัวแปร
+                                            name1 ที่กรอก และต่อด้วย <code>&lt;/h2&gt;</code><br> 28:สร้างปุ่ม alert และเรียกใช้ฟังก์ชัน alertUser<br>29:สร้างปุ่ม confirm และเรียกใช้ฟังก์ชัน confirmUser ถ้า ok จะแสดงค่าว่า You Seleted OK ถ้า cancel จะแสดงค่าว่า
+                                            You Seleted cancel <br>30:สร้างปุ่ม prompt และเรียกใช้ฟังก์ชัน promptUser จะมีกล่องพืมพ์ข้อความ เมื่อกรอกข้อความไปแล้ว จะแสดง welcome to page ตามด้วยคำที่กรอกไป</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/res5.png" class="img-rounded" width="450"></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js6">JavaScript 6</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js06.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js6.png" class="img-rounded" width="450"></td>
+                                        <td class="text">8: พิมพ์สตริง &lt;br&gt; This browser is ตามด้วยชื่อ Browser ที่ใช้<br>9: พิมพ์สตริง &lt;br&gt; Version ตามด้วยเวอร์ชันของ Browser<br>10: เป็นการเช็คเงื่อนไขว่าถ้าเมื่อแปลงเวอร์ชันของ Browser เป็นทศนิยมแล้วมีค่ามากกว่าหรือเท่ากับ
+                                            4 หรือไม่<br>13: ถ้าใช่ให้ขึ้นบรรทัดใหม่แล้วแสดงข้อความ You have an up-to-date browser</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/ans6.png" class="img-rounded" width="650"></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js7">JavaScript 7</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js07.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js7.png" class="img-rounded" width="500"></td>
+                                        <td class="text">8: ประกาศฟังก์ชัน windowHeight<br>9: ตรวจสอบว่าเป็น Browser หรือไม่<br>10: ถ้าใช่ให้คืนค่าความสูงหน้าจอกลับมา<br>11: ตรวจสอบว่าเป็น Browser Netscape หรือไม่<br>12: ถ้าใช่ให้คืนค่าความสูงหน้าจอกลับมา<br>13: ถ้าไม่ใช่<br>14:
+                                            ให้คืนค่า 0 กลับมา<br>17: ตรวจสอบว่าความสูงหน้าจอมากกว่าหรือเท่ากับ 300 หรือไม่<br>18: ถ้าใช่ให้ลิ้งค์ไปหน้า lab04.html <br>19: ถ้าไม่ใช่<br>20: ให้ลิ้งค์ไปหน้า http://angsila.cs.buu.ac.th/~58160021/887371/lab04/</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/ans7.png" class="img-rounded" width="600"></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js8">JavaScript 8</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js08.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js8.png" class="img-rounded" width="550"></td>
+                                        <td class="text">6: ประกาศฟังก์ชัน highlightdocs<br>7: ตรวจสอบ document.images<br>8: ให้ document.images ที่ชื่อ docs มีที่อยู่ที่ docsOn.src<br>12: ประกาศฟังก์ชัน unhighlightdocs<br>13: ให้ document.images ที่ชื่อ docs มีที่อยู่ที่
+                                            docsOff.src
+                                            <br>15: ตรวจสอบ document.images<br>16: สร้าง docsOn เป็น Object Image<br>17: ให้ docsOn.src อยู่ที่ img/gg_color.png<br>18: สร้าง docsOff เป็น Object Image<br>19: ให้ docsOff.src อยู่ที่ img/gg_black.png<br>25-27:
+                                            ทำให้รูปภาพสามารถ link ไปยังที่ ๆ เราต้องการ onMouseClick ให้รูปภาพเป็นสีขณะที่ cursor ชี้ไปยังรูปภาพนั้น onMouseOut คือในขณะที่ไม่มี cursor อยู่ก็ให้เอาสีออก โดยใช้ภาพ gg_black.png เป็นรูปตั้งต้น ให้มีขนาด
+                                            25px*25px
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/gg_color.png" class="img-rounded"><img src="img/gg_black.png" class="img-rounded"></td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js9">JavaScript 9</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js09.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js9.png" class="img-rounded" width="550"></td>
+                                        <td class="text"> 7: ประกาศฟังก์ชัน doMoveBrowser(form) รับ form เข้ามา<br> 8: รับค่าลิ้งค์เว็บไซต์จากฟังก์ชัน getSelectedValue เพื่อที่จะลิ้งค์ไปยังเว็บไซต์นั้น<br>11: ประกาศฟังก์ชัน getSelectedValue<br>12: คืนค่าเว็บไซต์กลับไป<br>15:
+                                            ประกาศฟังก์ชัน showURL(form) โดยรับ form เข้ามา<br>16: รับค่าลิ้งค์เว็บไซต์จากฟังก์ชัน getSelectedValue มาเก็บไว้ใน Text box<br>24:ประกาศการใช้งาน Form <br> 25:สร้างseletedชึ้นมาเพื่อระบุชนิดของ Form <br>26-29:สร้างdropdownเพื่อใช้เลือกว่าเราจะเข้า
+                                            website ใหน?<br>31-33:สร้างกล่องเพื่อแสดง URL ของแต่ละขื่อใน dropdown</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/ans9.png" class="img-rounded" width="700"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="alert alert-info">
+                        <h1 id="js10">JavaScript 10</h1>
+                        <div class="table-responsive">
+                            <table class="table table-bordered" id="footer">
+                                <thead>
+                                    <tr>
+                                        <th>js10.html</th>
+                                        <th>คำอธิบาย</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="img/js10.png" class="img-rounded" width="450"></td>
+                                        <td class="text">7: สร้าง Object ชื่อ AR ในรูปแบบของ Array<br>8: ให้ AR[ตำแหน่งที่ 0] เก็บสตริง Hello<br>9: ให้ AR[ตำแหน่งที่ 1] เก็บสตริง See you<br>10: ให้ AR[ตำแหน่งที่ 2] เก็บสตริง Bye<br>11: ประกาศตัวแปร i = 0<br>13: ประกาศฟังก์ชัน
+                                            next
+                                            <br>14: i เก็บค่า i ที่เพิ่มค่าขึ้น 1 แล้ว หารเอาเศษกับความยาวของ Array ที่ชื่อ AR<br>15: นำข้อมูลใน Array มาใส่แทรกลงไปตามตำแหน่ง i ที่เพิ่มขึ้น โดย id=click (คลิก 1 ครั้ง เปลี่ยนสตริง 1 ครั้ง)</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2"><img src="img/ans10-2.png" class="img-rounded"><img src="img/ans10.png" class="img-rounded"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="container">
+                            <ul class="pager">
+                                <li class="previous">
+                                    <a id="bg" href="#">
+                                        <h3>กลับด้านบน</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+            </div>
+        </div>
+
+</body>
+
+</html>
